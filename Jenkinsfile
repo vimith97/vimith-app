@@ -10,8 +10,7 @@ pipeline {
         sh "docker system prune -a -f"
         sh "docker run -itdp 80:80 --name vimith httpd"
         sh "docker cp index.html vimith:/usr/local/apache2/htdocs"
-        sh "docker exec -it vimith bash"
-        sh "chmod -R 777 /usr/local/apache2/"
+        sh "docker exec vimith chmod -R 777 /usr/local/apache2/"
       }
     }
   }
