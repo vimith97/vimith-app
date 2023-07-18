@@ -8,6 +8,8 @@ pipeline {
         sh "systemctl enable docker"
         sh "docker run -itdp 80:80 --name vimith httpd"
         sh "docker cp index.html vimith:/usr/local/apache2/htdocs"
+        sh "docker exec -it vimith bash"
+        sh "chmod -R /usr/local/apache2/"
       }
     }
   }
