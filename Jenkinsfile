@@ -1,9 +1,15 @@
 pipeline {
-  agent {
-    label ('slave-1') 
-    }
+  agent none
   stages {
+
     stage ('stage-1') {
+      agent any 
+      steps {
+      sh "scp /mnt/Dockerfile dev:/mnt/slave-1/workspace/Job-1/"
+      }
+    }
+      stage ('stage-2' {
+        agent { label 'slave-1' } 
            steps {
              sh "scp /mnt/Dockerfile dev:/mnt/slave-1/workspace/Job-1/"
              sh "sudo cd /mnt/"
@@ -13,4 +19,5 @@ pipeline {
     }
   }
 }
+             
 
