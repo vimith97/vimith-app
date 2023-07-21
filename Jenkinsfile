@@ -8,7 +8,7 @@ pipeline {
       sh "scp /mnt/Dockerfile dev:/mnt/slave-1/workspace/Job-1/"
       }
     }
-      stage ('stage-2' {
+      stage ('stage-2') {
         agent { label 'slave-1' } 
            steps {
              sh "scp /mnt/Dockerfile dev:/mnt/slave-1/workspace/Job-1/"
@@ -18,7 +18,4 @@ pipeline {
            }
     }
              }
-             }
-  }
-             
-
+        }
