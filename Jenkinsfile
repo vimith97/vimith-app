@@ -6,7 +6,7 @@ pipeline {
       agent any 
       
       steps {
-      sh "scp /mnt/Dockerfile root@34.226.143.170:/mnt/slave-1/workspace/Job-1/"
+      sh "scp /mnt/Dockerfile slave-1:/mnt/slave-1/workspace/Job-1/"
       }
     }
       stage ('stage-2') {
