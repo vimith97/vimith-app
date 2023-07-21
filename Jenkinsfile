@@ -17,6 +17,8 @@ pipeline {
              sh "sudo docker run -itdp 651:80 --name yogita1 yogita:1.0"
            }
     }
+             }
+             }
   }
              
 
