@@ -6,7 +6,7 @@ pipeline {
         sh "yum install docker -y"
         sh "systemctl start docker"
         sh "systemctl enable docker"
-        sh "docker stop vimith"
+        /*sh "docker stop vimith"*/
         sh "docker system prune -a -f"
         sh "mkdir /mnt/vimith15 && cd /mnt/vimith15/"
         sh "git init"
