@@ -5,9 +5,9 @@ pipeline {
   stages {
     stage ('stage-1') {
            steps {
-             sh "sudo cd /mnt/"
-             sh "sudo docker build -t yogita:1.0 ."
-             sh "sudo docker run -itdp 651:80 --name yogita1 yogita:1.0"
+             sh "cd /mnt/"
+             sh "docker build -t yogita:1.0 ."
+             sh "docker run -itdp 651:80 --name yogita1 yogita:1.0"
            }
     }
   }
