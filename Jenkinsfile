@@ -8,6 +8,8 @@ pipeline {
         sh "systemctl enable docker"
         sh "docker stop vimith"
         sh "docker system prune -a -f"
+        sh "mkdir /mnt/vimith15 && cd /mnt/vimith15/"
+        sh "git init"
         sh "docker run -itdp 80:80 -v /mnt/vimith15:/usr/local/apache2/htdocs/ --name vimith httpd"
         sh "docker exec vimith chmod -R 777 /usr/local/apache2/"
       }
