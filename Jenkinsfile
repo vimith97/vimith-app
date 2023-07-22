@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage ('23q2-deploy') {
       steps {
-        sh "yum install docker -y"
+        sh /*"yum install docker -y"
         sh "systemctl start docker"
-        sh "systemctl enable docker"
+        sh "systemctl enable docker"*/
         sh "docker stop vimith-1"
         sh "docker system prune -a -f"
         sh "docker run -itdp 90:80 --name vimith-1 httpd"
