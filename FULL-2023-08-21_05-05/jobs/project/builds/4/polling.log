@@ -1,0 +1,14 @@
+Started on Aug 14, 2023 2:15:36 PM
+Started by event from 140.82.115.36 ⇒ http://3.94.152.55:8080/jenkins/github-webhook/ on Mon Aug 14 14:15:34 UTC 2023
+Using strategy: Default
+[poll] Last Built Revision: Revision 62272075f942abac4d341354654bb62823e01e6a (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git ls-remote -h -- https://github.com/vimith97/project.git # timeout=10
+Found 1 remote heads on https://github.com/vimith97/project.git
+[poll] Latest remote head revision on refs/heads/master is: af290df41e4477c6ab461feb552f2042cadf41f3
+Done. Took 0.37 sec
+Changes found

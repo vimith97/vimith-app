@@ -1,0 +1,326 @@
+Started by user [8mha:////4DgHGj/M+gJaidI6aspZP7sZ8q76NtkpLAP/zW1lGBwyAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9sszczJIMABS6lO7BAAAA[0mvimith
+Obtained Jenkinsfile from git https://github.com/vimith97/project.git
+[8mha:////4Dxn2azLicIX2e6BnEEyzTNMobS44cur5r35+d26+156AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4F3AgK+ezq7ZdT3Z7tlSPc4cFXiMyOatW7neMNeLgy8PAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4MoHJBsbwrqJhNWUHYG1tqS0gQCNr8IBGU15cnp97ju+AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /root/.jenkins/workspace/rds-ass-2
+[8mha:////4DKCZEbaw0qI8/oQdKxxQEU0qDUlsnSWUg8/li12lbU/AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Azbyz7lNu/4uZDB5aikGK6++j5q8xWgjTtXHCRDk2q0AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] ws
+Running in /mnt/project-myapp
+[8mha:////4PuIu8dCPQ5Iju7LDEwukQG/8ZuPQWv5qRFVitDVBvGtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4HFIYX7xgxxpJGCsFR+7EIaF3CI1HfXrzQRN4TABwsAOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4Kerg6jN0VGsuP9+F3CYYGg6+Fb3candxh/A/IHaYlDOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4O50NdPK82WIHNQoFkTqR1jBuwuCCDvIBZRdpfDcONMmAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /mnt/project-myapp/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vimith97/project.git # timeout=10
+Fetching upstream changes from https://github.com/vimith97/project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.40.1'
+ > git fetch --tags --force --progress -- https://github.com/vimith97/project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d45a09cebe39fb704d3005b43bb8e60e7aa92efa (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d45a09cebe39fb704d3005b43bb8e60e7aa92efa # timeout=10
+Commit message: "Update docker-compose.yaml"
+ > git rev-list --no-walk 583aea842fef0d2ca368f4ea913e4837ab7a055d # timeout=10
+[8mha:////4AXUXlrb0dABBiXGkbkeWhZEAdpd9iBkYXTTgczfJjPQAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4AcXC+GFui8HZl3QdKhjl21mlJX3Yymu6A08jwMMGGfvAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4DtWNc2oDHGDuK73MMzvWBE5Q0C/IBXs/S0e5A3WOwgxAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LIrumuX2GmPEgwh2o55p4PppPhdgPDsHvgjCoGYqt7tAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4NMvMrA4CrN3pTmMvpg02K06D1yzaQFKDLUETfZ1LXxNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4GY4+ld8YJ5qUKAhOZfSD9Ee4kmgkKhpBg4UCv1a90N4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (CLEAN_OLD_M2)
+[8mha:////4GXgNFooZXREssfhetryZx8ksmHqi552x37Q3zDLJcaPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ sudo rm -rf /home/vimith/.m2/repository
+[8mha:////4NrUNoA82avEbQDCPHFPYPViskkuMGl52padksssqPzlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4Ckm3hRUtmnTtR4Ag5g8TbHcaYQO4d0fM6AwggBE/tWKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4GcmoQM2au/tYzdSc007/T6alFM86FiFkUwZ0degQF0IAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiAkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD21FAanCAAAA[0m[Pipeline] stage
+[8mha:////4Cp9YK+3StCalGTUBC7iWsSxxzC6VuJcpusXETGimtGcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (MAVEN_BUILD)
+[8mha:////4NcT/J6FoBmmbGoJANyE3JyEeybXQqC/gjDuGE+0GzmQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
++ sudo mvn clean install -DskipTests=true
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building LoginWebApp Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ LoginWebApp ---
+[INFO] Deleting /mnt/project-myapp/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ LoginWebApp ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /mnt/project-myapp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ LoginWebApp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ LoginWebApp ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /mnt/project-myapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ LoginWebApp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ LoginWebApp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ LoginWebApp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [LoginWebApp] in [/mnt/project-myapp/target/LoginWebApp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/mnt/project-myapp/src/main/webapp]
+[INFO] Webapp assembled in [135 msecs]
+[INFO] Building war: /mnt/project-myapp/target/LoginWebApp.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ LoginWebApp ---
+[INFO] Installing /mnt/project-myapp/target/LoginWebApp.war to /root/.m2/repository/com/javawebtutor/LoginWebApp/1.0-SNAPSHOT/LoginWebApp-1.0-SNAPSHOT.war
+[INFO] Installing /mnt/project-myapp/pom.xml to /root/.m2/repository/com/javawebtutor/LoginWebApp/1.0-SNAPSHOT/LoginWebApp-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.284s
+[INFO] Finished at: Wed Aug 16 16:13:21 UTC 2023
+[INFO] Final Memory: 7M/19M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4M1KP5LAZfxqPpQ+Km4nEx6n01iiY6RgREgqrtkeeI8dAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4GSaZjVO9bDQ4ML/H//PasuHOcFJSCOWL+jqjUMIDqLFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IoIvB7JdoaREbBWa+kPa3DX3vlV+38qpPgVzTB8wfuoAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycohU/GyoE2vUhROEJoSk0XslSUknTsTVuAOBSkx4sGxL1vd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2zb/edZvQEuTHckwgAAAA==[0m[Pipeline] stage
+[8mha:////4FmT+9YEEQYODEss1AZWr2YAFH9iNC/XbpUvIWfIi6FqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (deploy on docker container)
+[8mha:////4IuE8xjuIHrKcH6qN4gchJxgXjVbqjRZxnWFf6NG1vExAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ sudo docker-compose up
+ my-tomcat Pulling 
+ 9d19ee268e0d Pulling fs layer 
+ 1ccd2d5dafe8 Pulling fs layer 
+ 79d73bf9539b Pulling fs layer 
+ 75b660a991db Pulling fs layer 
+ 594307c077a3 Pulling fs layer 
+ 7a1e2bc68de1 Pulling fs layer 
+ 0ebbef9494e4 Pulling fs layer 
+ 8281374e070b Pulling fs layer 
+ 75b660a991db Waiting 
+ 594307c077a3 Waiting 
+ 7a1e2bc68de1 Waiting 
+ 0ebbef9494e4 Waiting 
+ 8281374e070b Waiting 
+ 1ccd2d5dafe8 Downloading [>                                                  ]  188.8kB/17.46MB
+ 79d73bf9539b Downloading [>                                                  ]    526kB/144.8MB
+ 1ccd2d5dafe8 Downloading [================================>                  ]  11.35MB/17.46MB
+ 79d73bf9539b Downloading [==>                                                ]  5.922MB/144.8MB
+ 1ccd2d5dafe8 Verifying Checksum 
+ 1ccd2d5dafe8 Download complete 
+ 79d73bf9539b Downloading [=====>                                             ]  17.26MB/144.8MB
+ 9d19ee268e0d Downloading [>                                                  ]  311.7kB/30.43MB
+ 79d73bf9539b Downloading [=========>                                         ]  27.51MB/144.8MB
+ 9d19ee268e0d Downloading [==========>                                        ]  6.579MB/30.43MB
+ 75b660a991db Downloading [==================================================>]     175B/175B
+ 75b660a991db Verifying Checksum 
+ 75b660a991db Download complete 
+ 79d73bf9539b Downloading [===========>                                       ]   32.9MB/144.8MB
+ 9d19ee268e0d Downloading [====================>                              ]  12.22MB/30.43MB
+ 79d73bf9539b Downloading [=============>                                     ]   38.3MB/144.8MB
+ 9d19ee268e0d Downloading [================================>                  ]  19.74MB/30.43MB
+ 79d73bf9539b Downloading [==============>                                    ]  42.62MB/144.8MB
+ 9d19ee268e0d Downloading [===========================================>       ]  26.63MB/30.43MB
+ 9d19ee268e0d Verifying Checksum 
+ 9d19ee268e0d Download complete 
+ 79d73bf9539b Downloading [================>                                  ]  48.02MB/144.8MB
+ 594307c077a3 Downloading [==================================================>]     733B/733B
+ 594307c077a3 Verifying Checksum 
+ 594307c077a3 Download complete 
+ 79d73bf9539b Downloading [===================>                               ]  57.19MB/144.8MB
+ 79d73bf9539b Downloading [======================>                            ]  65.82MB/144.8MB
+ 7a1e2bc68de1 Downloading [==================================================>]     173B/173B
+ 7a1e2bc68de1 Verifying Checksum 
+ 7a1e2bc68de1 Download complete 
+ 79d73bf9539b Downloading [=========================>                         ]  72.84MB/144.8MB
+ 0ebbef9494e4 Downloading [>                                                  ]  137.7kB/13.69MB
+ 79d73bf9539b Downloading [===========================>                       ]  79.31MB/144.8MB
+ 0ebbef9494e4 Downloading [=========>                                         ]  2.505MB/13.69MB
+ 79d73bf9539b Downloading [=============================>                     ]  84.17MB/144.8MB
+ 0ebbef9494e4 Downloading [====================>                              ]  5.569MB/13.69MB
+ 8281374e070b Downloading [==================================================>]     130B/130B
+ 8281374e070b Verifying Checksum 
+ 8281374e070b Download complete 
+ 79d73bf9539b Downloading [==============================>                    ]  89.03MB/144.8MB
+ 0ebbef9494e4 Downloading [=====================================>             ]   10.3MB/13.69MB
+ 0ebbef9494e4 Verifying Checksum 
+ 0ebbef9494e4 Download complete 
+ 79d73bf9539b Downloading [================================>                  ]  94.96MB/144.8MB
+ 9d19ee268e0d Extracting [>                                                  ]  327.7kB/30.43MB
+ 79d73bf9539b Downloading [===================================>               ]  103.6MB/144.8MB
+ 9d19ee268e0d Extracting [=>                                                 ]  655.4kB/30.43MB
+ 79d73bf9539b Downloading [=======================================>           ]  113.9MB/144.8MB
+ 79d73bf9539b Downloading [=========================================>         ]  120.3MB/144.8MB
+ 9d19ee268e0d Extracting [==>                                                ]  1.638MB/30.43MB
+ 79d73bf9539b Downloading [============================================>      ]  129.5MB/144.8MB
+ 79d73bf9539b Downloading [===============================================>   ]  138.1MB/144.8MB
+ 79d73bf9539b Verifying Checksum 
+ 79d73bf9539b Download complete 
+ 9d19ee268e0d Extracting [===>                                               ]  2.294MB/30.43MB
+ 9d19ee268e0d Extracting [======>                                            ]  3.932MB/30.43MB
+ 9d19ee268e0d Extracting [==========>                                        ]  6.226MB/30.43MB
+ 9d19ee268e0d Extracting [=============>                                     ]  8.192MB/30.43MB
+ 9d19ee268e0d Extracting [===============>                                   ]  9.503MB/30.43MB
+ 9d19ee268e0d Extracting [==================>                                ]  11.47MB/30.43MB
+ 9d19ee268e0d Extracting [=======================>                           ]  14.09MB/30.43MB
+ 9d19ee268e0d Extracting [===========================>                       ]  16.71MB/30.43MB
+ 9d19ee268e0d Extracting [================================>                  ]  19.66MB/30.43MB
+ 9d19ee268e0d Extracting [====================================>              ]  21.95MB/30.43MB
+ 9d19ee268e0d Extracting [=======================================>           ]  24.25MB/30.43MB
+ 9d19ee268e0d Extracting [===========================================>       ]  26.21MB/30.43MB
+ 9d19ee268e0d Extracting [===========================================>       ]  26.54MB/30.43MB
+ 9d19ee268e0d Extracting [=============================================>     ]  27.85MB/30.43MB
+ 9d19ee268e0d Extracting [===============================================>   ]  29.16MB/30.43MB
+ 9d19ee268e0d Extracting [=================================================> ]  30.15MB/30.43MB
+ 9d19ee268e0d Extracting [==================================================>]  30.43MB/30.43MB
+ 9d19ee268e0d Pull complete 
+ 1ccd2d5dafe8 Extracting [>                                                  ]  196.6kB/17.46MB
+ 1ccd2d5dafe8 Extracting [=====>                                             ]  1.966MB/17.46MB
+ 1ccd2d5dafe8 Extracting [==========>                                        ]  3.736MB/17.46MB
+ 1ccd2d5dafe8 Extracting [================>                                  ]  5.702MB/17.46MB
+ 1ccd2d5dafe8 Extracting [=======================>                           ]  8.258MB/17.46MB
+ 1ccd2d5dafe8 Extracting [===========================>                       ]  9.437MB/17.46MB
+ 1ccd2d5dafe8 Extracting [===================================>               ]  12.39MB/17.46MB
+ 1ccd2d5dafe8 Extracting [=======================================>           ]  13.96MB/17.46MB
+ 1ccd2d5dafe8 Extracting [==========================================>        ]  14.94MB/17.46MB
+ 1ccd2d5dafe8 Extracting [=============================================>     ]  15.93MB/17.46MB
+ 1ccd2d5dafe8 Extracting [==============================================>    ]  16.32MB/17.46MB
+ 1ccd2d5dafe8 Extracting [===============================================>   ]  16.52MB/17.46MB
+ 1ccd2d5dafe8 Extracting [================================================>  ]  16.91MB/17.46MB
+ 1ccd2d5dafe8 Extracting [==================================================>]  17.46MB/17.46MB
+ 1ccd2d5dafe8 Pull complete 
+ 79d73bf9539b Extracting [>                                                  ]  557.1kB/144.8MB
+ 79d73bf9539b Extracting [=>                                                 ]  3.899MB/144.8MB
+ 79d73bf9539b Extracting [==>                                                ]  7.242MB/144.8MB
+ 79d73bf9539b Extracting [===>                                               ]  10.58MB/144.8MB
+ 79d73bf9539b Extracting [====>                                              ]  13.37MB/144.8MB
+ 79d73bf9539b Extracting [=====>                                             ]  17.27MB/144.8MB
+ 79d73bf9539b Extracting [=======>                                           ]  21.17MB/144.8MB
+ 79d73bf9539b Extracting [========>                                          ]  24.51MB/144.8MB
+ 79d73bf9539b Extracting [=========>                                         ]  28.41MB/144.8MB
+ 79d73bf9539b Extracting [==========>                                        ]   31.2MB/144.8MB
+ 79d73bf9539b Extracting [===========>                                       ]  34.54MB/144.8MB
+ 79d73bf9539b Extracting [============>                                      ]  37.32MB/144.8MB
+ 79d73bf9539b Extracting [==============>                                    ]  41.78MB/144.8MB
+ 79d73bf9539b Extracting [================>                                  ]  47.35MB/144.8MB
+ 79d73bf9539b Extracting [===================>                               ]  55.15MB/144.8MB
+ 79d73bf9539b Extracting [=====================>                             ]  61.28MB/144.8MB
+ 79d73bf9539b Extracting [=======================>                           ]  66.85MB/144.8MB
+ 79d73bf9539b Extracting [=========================>                         ]  72.97MB/144.8MB
+ 79d73bf9539b Extracting [==========================>                        ]  75.76MB/144.8MB
+ 79d73bf9539b Extracting [===========================>                       ]  80.22MB/144.8MB
+ 79d73bf9539b Extracting [============================>                      ]  82.44MB/144.8MB
+ 79d73bf9539b Extracting [=============================>                     ]  85.23MB/144.8MB
+ 79d73bf9539b Extracting [==============================>                    ]  88.01MB/144.8MB
+ 79d73bf9539b Extracting [===============================>                   ]  90.24MB/144.8MB
+ 79d73bf9539b Extracting [================================>                  ]  93.03MB/144.8MB
+ 79d73bf9539b Extracting [================================>                  ]  95.26MB/144.8MB
+ 79d73bf9539b Extracting [=================================>                 ]  98.04MB/144.8MB
+ 79d73bf9539b Extracting [==================================>                ]  100.8MB/144.8MB
+ 79d73bf9539b Extracting [===================================>               ]  103.6MB/144.8MB
+ 79d73bf9539b Extracting [====================================>              ]  106.4MB/144.8MB
+ 79d73bf9539b Extracting [=====================================>             ]  109.2MB/144.8MB
+ 79d73bf9539b Extracting [======================================>            ]    112MB/144.8MB
+ 79d73bf9539b Extracting [=======================================>           ]  114.2MB/144.8MB
+ 79d73bf9539b Extracting [========================================>          ]  116.4MB/144.8MB
+ 79d73bf9539b Extracting [=========================================>         ]  119.2MB/144.8MB
+ 79d73bf9539b Extracting [=========================================>         ]  121.4MB/144.8MB
+ 79d73bf9539b Extracting [==========================================>        ]  123.7MB/144.8MB
+ 79d73bf9539b Extracting [===========================================>       ]  125.9MB/144.8MB
+ 79d73bf9539b Extracting [============================================>      ]  128.1MB/144.8MB
+ 79d73bf9539b Extracting [============================================>      ]  129.8MB/144.8MB
+ 79d73bf9539b Extracting [=============================================>     ]    132MB/144.8MB
+ 79d73bf9539b Extracting [=============================================>     ]  133.1MB/144.8MB
+ 79d73bf9539b Extracting [==============================================>    ]  135.9MB/144.8MB
+ 79d73bf9539b Extracting [===============================================>   ]  138.1MB/144.8MB
+ 79d73bf9539b Extracting [================================================>  ]  140.9MB/144.8MB
+ 79d73bf9539b Extracting [=================================================> ]  143.7MB/144.8MB
+ 79d73bf9539b Extracting [==================================================>]  144.8MB/144.8MB
+ 79d73bf9539b Pull complete 
+ 75b660a991db Extracting [==================================================>]     175B/175B
+ 75b660a991db Extracting [==================================================>]     175B/175B
+ 75b660a991db Pull complete 
+ 594307c077a3 Extracting [==================================================>]     733B/733B
+ 594307c077a3 Extracting [==================================================>]     733B/733B
+ 594307c077a3 Pull complete 
+ 7a1e2bc68de1 Extracting [==================================================>]     173B/173B
+ 7a1e2bc68de1 Extracting [==================================================>]     173B/173B
+ 7a1e2bc68de1 Pull complete 
+ 0ebbef9494e4 Extracting [>                                                  ]  163.8kB/13.69MB
+ 0ebbef9494e4 Extracting [====>                                              ]  1.311MB/13.69MB
+ 0ebbef9494e4 Extracting [=====================>                             ]  5.898MB/13.69MB
+ 0ebbef9494e4 Extracting [=====================================>             ]  10.32MB/13.69MB
+ 0ebbef9494e4 Extracting [============================================>      ]  12.29MB/13.69MB
+ 0ebbef9494e4 Extracting [===============================================>   ]  12.94MB/13.69MB
+ 0ebbef9494e4 Extracting [==================================================>]  13.69MB/13.69MB
+ 0ebbef9494e4 Pull complete 
+ 8281374e070b Extracting [==================================================>]     130B/130B
+ 8281374e070b Extracting [==================================================>]     130B/130B
+ 8281374e070b Pull complete 
+ my-tomcat Pulled 
+ Container project-myapp-my-tomcat-1  Creating
+ Container project-myapp-my-tomcat-1  Created
+Attaching to project-myapp-my-tomcat-1
+project-myapp-my-tomcat-1  | NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+project-myapp-my-tomcat-1  | 
+project-myapp-my-tomcat-1  | 
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.79
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 8 2023 20:41:26 UTC
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.79.0
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.10.184-175.749.amzn2.x86_64
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8+7
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.359 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.0].
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.365 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.365 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:37.382 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:38.174 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:38.252 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1427] milliseconds
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:38.347 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:38.348 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.79]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:38.386 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/LoginWebApp.war]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:39.597 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:39.719 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/LoginWebApp.war] has finished in [1,327] ms
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:39.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/maven-archiver]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:39.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/maven-archiver] has finished in [51] ms
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:39.782 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:13:39.828 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1574] milliseconds
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:17:59.811 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:17:59.836 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:17:59.964 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+project-myapp-my-tomcat-1  | 16-Aug-2023 16:17:59.984 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+project-myapp-my-tomcat-1 exited with code 143
+[8mha:////4MUkcyGNYsNrDeFIztolvOiepGuTpZtoC1nz8FEcZnuqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4EcwywSKPAkvsvLFwCrgWIYhQ40T9SoDWnfZ8D4y3bk2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Av+WZh2Y8mSYpf5bsrf/xgxXDSd+lOhT63ohjejWWPLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wFWvQSZvgAAAA==[0m[Pipeline] }
+[8mha:////4ASLCt2nimdL3paw9d7QZbsYu7yDWTyExdOSq24NsyZ7AAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trtP7zXe2++AAAA[0m[Pipeline] // withEnv
+[8mha:////4Ojhg5BeA0hiYC3b8VZkYoX+oRdo9LfmOVv0lmpmCdI9AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/ABLC40y9AAAA[0m[Pipeline] }
+[8mha:////4NBtidmY7oqwl8E6ONAj1i+UgqrOxDjspFuQsUURfPDEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPeOlKkr0AAAA=[0m[Pipeline] // ws
+[8mha:////4GoUODpOfbujJGQg3anaQwcp8RfVYx+jnX5bM5NkL5o5AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9e8C3YvQAAAA==[0m[Pipeline] }
+[8mha:////4CtKfNV7OCDaJDBRGZ49gccI2lU2azGuXLa9Sb9TDhodAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/tuWn0vQAAAA==[0m[Pipeline] // node
+[8mha:////4LBUA4NU3csBYAI25ohf+UMt7ZD9ADZwQbyeFhL73FQxAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
